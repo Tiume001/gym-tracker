@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Tracker - Il tuo allenamento</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --light-color: #ecf0f1;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f5f6fa;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .giorno-container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .giorno-title {
+            color: var(--secondary-color);
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .parte-corpo {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .parte-title {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            grid-column: 1 / -1;
+        }
+
+        .esercizio {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+
+        .esercizio h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            color: var(--primary-color);
+        }
+
+        .input-group {
+            margin-bottom: 0.5rem;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 0.3rem;
+            color: #666;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        @media (max-width: 768px) {
+            .parte-corpo {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gym Tracker 💪</h1>
+    </header>
+
+    <div class="container">
+        <!-- Giorno 1 -->
+        <div class="giorno-container">
+            <h2 class="giorno-title">Giorno 1 - Spalle e Gambe</h2>
+            
+            <!-- Spalle -->
+            <div class="parte-corpo">
+                <h3 class="parte-title">Spalle</h3>
+                <div class="esercizio">
+                    <h3>Military Press con bilancere (4 serie)</h3>
+                    <div class="input-group">
+                        <label>Ripetizioni</label>
+                        <input type="number" class="reps">
+                    </div>
+                    <div class="input-group">
+                        <label>Peso (kg)</label>
+                        <input type="number" class="weight">
+                    </div>
+                </div>
+                <!-- Aggiungi altri 3 esercizi qui -->
+                <div class="esercizio">
+                    <h3>Shoulder press con manubri (4 serie)</h3>
+                    <div class="input-group">
+                        <label>Ripetizioni</label>
+                        <input type="number" class="reps">
+                    </div>
+                    <div class="input-group">
+                        <label>Peso (kg)</label>
+                        <input type="number" class="weight">
+                    </div>
+                </div>
+                <div class="esercizio">
+                    <h3>Alzate laterali (4 serie)</h3>
+                    <div class="input-group">
+                        <label>Ripetizioni</label>
+                        <input type="number" class="reps">
+                    </div>
+                    <div class="input-group">
+                        <label>Peso (kg)</label>
+                        <input type="number" class="weight">
+                    </div>
+                </div>
+                <div class="esercizio">
+                    <h3>Remata eretta ai cavi dal basso (3 serie)</h3>
+                    <div class="input-group">
+                        <label>Ripetizioni</label>
+                        <input type="number" class="reps">
+                    </div>
+                    <div class="input-group">
+                        <label>Peso (kg)</label>
+                        <input type="number" class="weight">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gambe -->
+            <div class="parte-corpo">
+                <h3 class="parte-title">Gambe</h3>
+                <div class="esercizio">
+                    <h3>Leg press machine (4 serie)</h3>
+                    <div class="input-group">
+                        <label>Ripetizioni</label>
+                        <input type="number" class="reps">
+                    </div>
+                    <div class="input-group">
+                        <label>Peso (kg)</label>
+                        <input type="number" class="weight">
+                    </div>
+                </div>
+                <!-- Aggiungi altri 3 esercizi qui -->
+                <div class="esercizio">
+                    <h3>Squat con bilanciere (5 serie)</h3>
+                    <div class="input-group">
+                        <label>Ripetizioni</label>
+                        <input type="number" class="reps">
+                    </div>
+                    <div class="input-group">
+                        <label>Peso (kg)</label>
+                        <input type="number" class="weight">
+                    </div>
+                </div>
+                <div class="esercizio">
+                    <h3>Leg curl machine (4 serie)</h3>
+                    <div class="input-group">
+                        <label>Ripetizioni</label>
+                        <input type="number" class="reps">
+                    </div>
+                    <div class="input-group">
+                        <label>Peso (kg)</label>
+                        <input type="number" class="weight">
+                    </div>
+                </div>
+                <div class="esercizio">
+                    <h3>Leg extension machine (3 serie)</h3>
+                    <div class="input-group">
+                        <label>Ripetizioni</label>
+                        <input type="number" class="reps">
+                    </div>
+                    <div class="input-group">
+                        <label>Peso (kg)</label>
+                        <input type="number" class="weight">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--  Giorno 2  -->
+        <div class="giorno-container">
+            <h2 class="giorno-title">Giorno 2 - Schiena e Bicipiti</h2>
+            
+            <!-- Schiena -->
+            <div class="parte-corpo">
+                <h3 class="parte-title">Schiena</h3>
+                <div class="esercizio">
+                    <h3>Rematore neutro alla macchina con dischi (4 serie)</h3>
+                    <div class="input-group">
+                        <label>Ripetizioni</label>
+                        <input type="number" class="reps">
+                    </div>
+                    <div class="input-group">
+                        <label>Peso (kg)</label>
+                        <input type="number" class="weight">
+                    </div>
+                </div>
+                <!-- Aggiungi altri 3 esercizi qui -->
+                <div class="esercizio">
+                    <h3>Lat machine (4 serie)</h3>
+                    <div class="input-group">
+                        <label>Ripetizioni</label>
+                        <input type="number" class="reps">
+                    </div>
+                    <div class="input-group">
+                        <label>Peso (kg)</label>
+                        <input type="number" class="weight">
+                    </div>
+                </div>
+                <div class="esercizio">
+                    <h3>Pulley basso con triangolo ai cavi (4 serie)</h3>
+                    <div class="input-group">
+                        <label>Ripetizioni</label>
+                        <input type="number" class="reps">
+                    </div>
+                    <div class="input-group">
+                        <label>Peso (kg)</label>
+                        <input type="number" class="weight">
+                    </div>
+                </div>
+                <div class="esercizio">
+                    <h3>Pull down ai cavi con barra (3 serie)</h3>
+                    <div class="input-group">
+                        <label>Ripetizioni</label>
+                        <input type="number" class="reps">
+                    </div>
+                    <div class="input-group">
+                        <label>Peso (kg)</label>
+                        <input type="number" class="weight">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bicipiti -->
+            <div class="parte-corpo">
+                <h3 class="parte-title">Bicipiti</h3>
+                <div class="esercizio">
+                    <h3>Corda a martello ai cavi (4 serie)</h3>
+                    <div class="input-group">
+                        <label>Ripetizioni</label>
+                        <input type="number" class="reps">
+                    </div>
+                    <div class="input-group">
+                        <label>Peso (kg)</label>
+                        <input type="number" class="weight">
+                    </div>
+                </div>
+                <!-- Aggiungi altri 3 esercizi qui -->
+                <div class="esercizio">
+                    <h3>Barra bassa ai cavi (4 serie)</h3>
+                    <div class="input-group">
+                        <label>Ripetizioni</label>
+                        <input type="number" class="reps">
+                    </div>
+                    <div class="input-group">
+                        <label>Peso (kg)</label>
+                        <input type="number" class="weight">
+                    </div>
+                </div>
+                <div class="esercizio">
+                    <h3>Curl classico / martello con manubri (4 serie)</h3>
+                    <div class="input-group">
+                        <label>Ripetizioni</label>
+                        <input type="number" class="reps">
+                    </div>
+                    <div class="input-group">
+                        <label>Peso (kg)</label>
+                        <input type="number" class="weight">
+                    </div>
+                </div>
+                <div class="esercizio">
+                    <h3>Curl con bilanciere zig-zag (3 serie)</h3>
+                    <div class="input-group">
+                        <label>Ripetizioni</label>
+                        <input type="number" class="reps">
+                    </div>
+                    <div class="input-group">
+                        <label>Peso (kg)</label>
+                        <input type="number" class="weight">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--  Giorno 3  -->
+        <div class="giorno-container">
+            <h2 class="giorno-title">Giorno 3 - Petto e Tricipiti</h2>
+            
+            <!-- Petto -->
+            <div class="parte-corpo">
+                <h3 class="parte-title">Petto</h3>
+                <div class="esercizio">
+                    <h3>Panca piana con bilanciere (5 serie)</h3>
+                    <div class="input-group">
+                        <label>Ripetizioni</label>
+                        <input type="number" class="reps">
+                    </div>
+                    <div class="input-group">
+                        <label>Peso (kg)</label>
+                        <input type="number" class="weight">
+                    </div>
+                </div>
+                <!-- Aggiungi altri 3 esercizi qui -->
+                <div class="esercizio">
+                    <h3>Panca inclinata con manubri (4 serie)</h3>
+                    <div class="input-group">
+                        <label>Ripetizioni</label>
+                        <input type="number" class="reps">
+                    </div>
+                    <div class="input-group">
+                        <label>Peso (kg)</label>
+                        <input type="number" class="weight">
+                    </div>
+                </div>
+                <div class="esercizio">
+                    <h3>Croci ai cavi alti (3 serie)</h3>
+                    <div class="input-group">
+                        <label>Ripetizioni</label>
+                        <input type="number" class="reps">
+                    </div>
+                    <div class="input-group">
+                        <label>Peso (kg)</label>
+                        <input type="number" class="weight">
+                    </div>
+                </div>
+                <div class="esercizio">
+                    <h3>Croci ai cavi bassi (3 serie)</h3>
+                    <div class="input-group">
+                        <label>Ripetizioni</label>
+                        <input type="number" class="reps">
+                    </div>
+                    <div class="input-group">
+                        <label>Peso (kg)</label>
+                        <input type="number" class="weight">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tricipiti -->
+            <div class="parte-corpo">
+                <h3 class="parte-title">Tricipiti</h3>
+                <div class="esercizio">
+                    <h3>Pushdown ai cavi con corda (4 serie)</h3>
+                    <div class="input-group">
+                        <label>Ripetizioni</label>
+                        <input type="number" class="reps">
+                    </div>
+                    <div class="input-group">
+                        <label>Peso (kg)</label>
+                        <input type="number" class="weight">
+                    </div>
+                </div>
+                <!-- Aggiungi altri 3 esercizi qui -->
+                <div class="esercizio">
+                    <h3>Pushdown ai cavi con barra (4 serie)</h3>
+                    <div class="input-group">
+                        <label>Ripetizioni</label>
+                        <input type="number" class="reps">
+                    </div>
+                    <div class="input-group">
+                        <label>Peso (kg)</label>
+                        <input type="number" class="weight">
+                    </div>
+                </div>
+                <div class="esercizio">
+                    <h3>Pushdown incrociato ai cavi alti (4 serie)</h3>
+                    <div class="input-group">
+                        <label>Ripetizioni</label>
+                        <input type="number" class="reps">
+                    </div>
+                    <div class="input-group">
+                        <label>Peso (kg)</label>
+                        <input type="number" class="weight">
+                    </div>
+                </div>
+                <div class="esercizio">
+                    <h3>Skullcrusher ai cavi singolo braccio (3 serie)</h3>
+                    <div class="input-group">
+                        <label>Ripetizioni</label>
+                        <input type="number" class="reps">
+                    </div>
+                    <div class="input-group">
+                        <label>Peso (kg)</label>
+                        <input type="number" class="weight">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <button onclick="resetAllData()" style="margin: 20px auto; display: block; padding: 10px 20px; background-color: #ff4444; color: white; border: none; border-radius: 5px; cursor: pointer;">Reset All Data</button>
+
+    <script>
+    // Funzione per generare un ID univoco basato sulla posizione dell'input
+    function generateInputId(input) {
+        const exerciseContainer = input.closest('.esercizio');
+        const exerciseName = exerciseContainer.querySelector('h3').textContent.replace(/\s+/g, '');
+        const dayContainer = input.closest('.giorno-container');
+        const dayNumber = Array.from(dayContainer.parentNode.children).indexOf(dayContainer) + 1;
+        const bodyPart = input.closest('.parte-corpo').querySelector('.parte-title').textContent.split(' - ')[0].trim().replace(/\s+/g, '');
+        const inputType = input.classList.contains('reps') ? 'reps' : 'weight';
+        
+        return `giorno${dayNumber}-${bodyPart}-${exerciseName}-${inputType}`;
+    }
+
+    // Carica i dati salvati al caricamento della pagina
+    window.addEventListener('load', () => {
+        const allInputs = document.querySelectorAll('input');
+        
+        allInputs.forEach(input => {
+            const inputId = generateInputId(input);
+            const savedValue = localStorage.getItem(inputId);
+            if(savedValue) {
+                input.value = savedValue;
+            }
+        });
+    });
+
+    // Salva i dati quando vengono modificati
+    const allInputs = document.querySelectorAll('input');
+    allInputs.forEach(input => {
+        input.addEventListener('input', () => {
+            const inputId = generateInputId(input);
+            localStorage.setItem(inputId, input.value);
+        });
+    });
+
+    // Funzione per resettare tutti i dati (opzionale, puoi aggiungere un pulsante)
+    function resetAllData() {
+        const allInputs = document.querySelectorAll('input');
+        allInputs.forEach(input => {
+            input.value = '';
+            const inputId = generateInputId(input);
+            localStorage.removeItem(inputId);
+        });
+    }
+
+    // Aggiungi questo pulsante da qualche parte nel tuo HTML
+    // <button onclick="resetAllData()" style="margin: 20px auto; display: block; padding: 10px 20px;">Reset All Data</button>
+</script>
+
+
+</body>
+</html>
