@@ -104,9 +104,9 @@
 - Alzate frontali con manubri: 4 serie
 - Alzate da prono su panca inclinata 30°: 3 serie
 
----
+------------
 
-## Giorno Bonus
+# Giorno Bonus
 
 - Riscaldamento con scale macchinario (5 min)
 - Stacchi
