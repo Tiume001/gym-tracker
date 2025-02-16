@@ -25,7 +25,7 @@ Riscaldamento con pectoral machine (2 serie)
 ### Giorno 2
 
 #### Schiena
-- Riscaldamento con pulley basso ai cavi (2 serie)
+Riscaldamento con pulley basso ai cavi (2 serie)
 - T-bar: 4 serie
 - Rematore neutro alla macchina: 4 serie
 - Pull down ai cavi con barra: 3 serie
@@ -41,14 +41,14 @@ Riscaldamento con pectoral machine (2 serie)
 ### Giorno 3
 
 #### Gambe
-- Riscaldamento con leg press (2 serie)
+Riscaldamento con leg press (2 serie)
 - Squat con bilanciere: 4 serie
 - Leg curl: 4 serie
 - Affondi con manubri: 3 serie
 - Adductor machine: 3 serie
 
 #### Spalle
-- Riscaldamento con shoulder press machine (2 serie)
+Riscaldamento con shoulder press machine (2 serie)
 - Military press: 4 serie
 - Alzate laterali con manubri: 4 serie
 - Remata eretta ai cavi dal basso: 3 serie
@@ -60,7 +60,7 @@ Riscaldamento con pectoral machine (2 serie)
 ### Giorno 1
 
 #### Petto
-- Riscaldamento con cavi dall’alto (2 serie)
+Riscaldamento con cavi dall’alto (2 serie)
 - Panca inclinata 15° con manubri: 4 serie
 - Panca piana presa stretta: 4 serie
 - Pectoral machine: 3 serie
@@ -76,7 +76,7 @@ Riscaldamento con pectoral machine (2 serie)
 ### Giorno 2
 
 #### Schiena
-- Riscaldamento con T-bar (2 serie)
+Riscaldamento con T-bar (2 serie)
 - Lat machine: 4 serie
 - Rematore manubrio: 4 serie
 - Pulley basso ai cavi: 3 serie
@@ -92,7 +92,7 @@ Riscaldamento con pectoral machine (2 serie)
 ### Giorno 3
 
 #### Gambe
-- Riscaldamento con leg press (2 serie)
+Riscaldamento con leg press (2 serie)
 - Affondi con bilanciere: 4 serie
 - Leg extension: 4 serie
 - Leg curl: 3 serie
