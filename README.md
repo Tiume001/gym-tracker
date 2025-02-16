@@ -9,7 +9,7 @@
 ### Giorno 1
 
 #### Petto
-- Riscaldamento con pectoral machine (2 serie)
+Riscaldamento con pectoral machine (2 serie)
 - Panca piana con bilanciere: 4 serie
 - Panca inclinata 30° con manubri: 4 serie
 - Cavi dall’alto: 3 serie
