@@ -99,7 +99,7 @@ Riscaldamento con leg press (2 serie)
 - Adductor machine: 3 serie
 
 #### Spalle
-- Riscaldamento con shoulder press (2 serie)
+Riscaldamento con shoulder press (2 serie)
 - Shoulder press con manubri: 4 serie
 - Alzate frontali con manubri: 4 serie
 - Alzate da prono su panca inclinata 30°: 3 serie
@@ -108,7 +108,7 @@ Riscaldamento con leg press (2 serie)
 
 # Giorno Bonus
 
-- Riscaldamento con scale macchinario (5 min)
+Riscaldamento con scale macchinario (5 min)
 - Stacchi
 - Rematore
 - Addome
