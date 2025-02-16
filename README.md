@@ -112,6 +112,9 @@
 - Stacchi
 - Rematore
 - Addome
-- Esercizi bonus
+
+---
+
+# Esercizi bonus
 - **Spalle**
   - Arnold press con manubri (spalle)
